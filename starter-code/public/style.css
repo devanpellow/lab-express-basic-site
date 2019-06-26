@@ -5,6 +5,11 @@
   background-image: url(/images/star_bg.jpg);
   background-size: cover;
   color: white;
+  text-shadow: 1.5px 1.5px 0 grey,
+  -1px -1px 0 grey,  
+   1px -1px 0 grey,
+   -1px 1px 0 grey,
+    1px 1px 0 grey;
 }
 
 .photo-of-the-week {
@@ -17,7 +22,8 @@
 .photo-of-the-week img {
 	margin: 10px 0;
 	height: 70vh;
-	transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  border: 3px solid white;
 }
 
 .collection img {
