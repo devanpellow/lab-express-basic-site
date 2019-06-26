@@ -19,3 +19,7 @@
 	height: 70vh;
 	transform: rotate(-90deg);
 }
+
+.collection img {
+  width: 25%;
+}
