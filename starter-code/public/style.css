@@ -1,0 +1,21 @@
+.container-home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  background-image: url(/images/star_bg.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.photo-of-the-week {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.photo-of-the-week img {
+	margin: 10px 0;
+	height: 70vh;
+	transform: rotate(-90deg);
+}
